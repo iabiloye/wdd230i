@@ -10,7 +10,9 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+    
+    
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -20,32 +22,28 @@
     <div id="banner">🤝🏼 Come join us for the Chamber meet and greet Last Thursday of Every Month at 7:00 p.m.</div>
     <header>
         <picture class="logo">
-            <img src="images/logo.webp" alt="IQweet Chamber of Commerce Logo">
+            <img src="images/logo.png" alt="IQweet Chamber of Commerce Logo">
         </picture>
         <section class="headings">
             <h1>IQweet</h1>
             <p>Chamber of Commerce</p>
         </section>
         <div class="social">
-            <a href="https://facebook.com"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g>
-                    <path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#3B5998" />
-                    <path d="M22,32V20h4l1-5h-5v-2c0-2,1.002-3,3-3h2V5c-1,0-2.24,0-4,0c-3.675,0-6,2.881-6,7v3h-4v5h4v12H22z" fill="#FFFFFF" id="f" />
-                </g>
-            </svg></a>
-            <a href="https://linkedin.com"><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g id="g5891">
-                    <path d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z" id="background" style="fill:#2867b2;" />
-                    <g id="shapes">
-                        <rect height="257.962" id="rect11" style="fill:#fff;" width="85.76" x="61.053" y="178.667" />
-                        <path d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z" id="path13-0" style="fill:#fff;fill-rule:nonzero;" />
-                        <path d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z" id="path15" style="fill:#fff;fill-rule:nonzero;" />
-                    </g>
-                </g>
-            </svg></a>
+            <a href="https://facebook.com" target="_blank">
+                <img class="social-logo" src="images/Facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/login" target="_blank">
+                <img class="social-logo" src="images/linkedin.png" alt="linkedIn">
+            </a>
+            <a href="https://www.youtube.com/login" target="_blank">
+                <img class="social-logo" src="images/youtube.jpeg" alt="youtube">
+            </a>
+            <a href="https://www.instagram.com/login" target="_blank">
+                <img class="social-logo" src="images/instagram.png" alt="instagram">
+            </a>
         </div>
         <nav class="navbar">
-            <ul class="nav-menu">
+            <ul class="nav-menu"> 
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
@@ -73,9 +71,9 @@
     <main id="home">
         <div id="hero">
             <picture>
-                <source media="(min-width: 60rem)" srcset="images/laramielarge.jpg">
-	            <source media="(min-width: 45rem)" srcset="images/laramiemedium.jpg">
-	            <img src="images/laramiesmall.jpg" alt="IQweet">
+                <source srcset="images/wdd230large.jpg" media="(min-width: 1028px)">
+                    <source srcset="images/wdd230medium.jpg" media="(min-width: 560px)">
+                    <img src="images/wdd230small.jpg" alt="hero-image">
             </picture>
             <h2>Welcome to IQweet!</h2>
         </div>
@@ -87,17 +85,19 @@
             <h2>Events</h2>
             <h3>Downtown Farmer's Market</h3>
             <img src="images/foodbank.png" alt="Food">
-            <p>Come experience IQweet's Downtown Farmer's Market every Friday from 3-7pm 
-                each week until September 30th! </p>
-            <p>Located at the parking lot North of Depot Park on S 1st St.</p>
+            <p>Come experience IQweet's ! </p>
+            <p>Locate us.</p>
         </div>
         <div id="weather">
             <h2>Weather Summary</h2>
-            <picture><img src="#" alt="#" id="weather-icon"></picture>
-            <p id="temp-ph"><span id="temperature"></span> &deg;F</p>
-            <h3 id="caption">Description</h3>
-            <p id="speed-ph">Windspeed: <span id="speed"></span> mph</p>
-            <p id="chill-ph">Windchill: <span id="chill"></span></p>
+            <img src="images/wdd230-timbuktu-weather-summary.png" alt="cloud icon">
+            <h3 class="temp"><span id="temp-value">45</span>&#xb0;F</h3>
+            <p id="weather-condition">Partly Cloudy</p>
+            <hr>
+            <div>
+                <p class="windspeed">Wind Speed: <span id="windspeed-value">4</span> mph</p>
+                <p class="wind-chill">Wind Chill: <span id="windchill"></span><span id="windchillValue"></span>
+                </p>
         </div>
         <div id="join">
             <h2><a href="join.html">Join Us!</a></h2>
@@ -108,9 +108,9 @@
             
         </div>
     </main>
-    <footer>
+    <footer>s
         <div class="footer1">
-            <img src="images/logo.webp" alt="IQweet Chamber of Commerce Logo">
+            <img src="images/logo.png" alt="IQweet Chamber of Commerce Logo">
             <h1>IQweet Chamber of Commerce</h1>
             <p id="p1"><i>41A. 3rd Street</i></p>
             <p id="p2"><i>IQweet Jnc., Cross-River, Calabar 500420</i></p>
@@ -121,7 +121,7 @@
             <p><a href="https://goo.gl/maps/VPjjWjUJRpZ2WmCq7">📍 Location Map</a></p>
         </div>
         <div class="footer3">
-            <p>©<span id="copyrightyear"></span>  IQweet Chamber ||  Abiloye Iyanoluwa John  ||  WDD 230 Project  
+            <p>©<span id="copyrightyear"></span>  IQweet Chamber ||  Abiloye Iyanuoluwa John  ||  WDD 230 Project  
                 ||  <span id="lastmodified"></span></p>
                 <p>Weather Data Provided by <a href="https://openweathermap.org/city/5861897">Open Weather Map</a></p>
     </footer>
