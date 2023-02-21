@@ -1,0 +1,26 @@
+body {
+    background-color : rgb(167, 105, 12);
+    }
+    h1 {
+    text-align : center;
+    color : white;
+    }
+    picture img {
+    width : 100%;
+    filter : blur(0);
+    transition : filter 0.5s;
+    max-height : 835px;
+    filter : blur(0);
+    transition : filter 0.5s;
+    }
+    #main {
+    margin : 0 auto;
+    display : grid;
+    grid-template-columns : 1fr;
+    justify-items : center;
+    gap : 10px;
+    padding : 50px 0;
+    }
+    picture img[data-src] {
+    filter : blur(0.2em);
+    }
