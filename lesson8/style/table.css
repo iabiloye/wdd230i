@@ -1,0 +1,54 @@
+table {
+	font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Zeyada', cursive; */
+	width : 70%;
+	border : #161616 solid 1px;
+	margin : 10% auto;
+	border-collapse : collapse;
+	caption-side : top;
+	}
+	td, th {
+	border : #000000 solid 1px;
+	}
+	.cancel {
+	text-align : center;
+	}
+	.checkmark {
+	color : #108026;
+	text-align : center;
+	}
+	.row-heading {
+	font-weight : bolder;
+	padding : 10px;
+	}
+	.table-heading {
+	font-size : 1.1rem;
+	padding : 10px;
+	background-color : #5a5a5a;
+	color : #fff;
+	text-shadow: #161616;
+	}
+	.main-title {
+	padding : 30px;
+	font-size : 1.4rem;
+	font-weight : bolder;
+	background-color : black;
+	color : #fff;
+	}
+	.tfoot-phrase {
+	text-align : center;
+	text-transform: capitalize;
+	align-content: last baseline;
+
+	}
+	tbody tr:nth-child(even) {
+	background-color : rgba(226, 220, 216, 0.735);
+	}
+	#no_data {
+	background-color : #000000;
+	}
+	/* footer{
+		text-transform: capitalize;
+		align-content: last baseline;
+		text-combine-upright: upset;
+	} */
