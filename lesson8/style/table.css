@@ -38,7 +38,8 @@ table {
 	.tfoot-phrase {
 	text-align : center;
 	text-transform: capitalize;
-	align-content: last baseline;
+	align-content: last baseline
+	
 
 	}
 	tbody tr:nth-child(even) {
@@ -47,8 +48,16 @@ table {
 	#no_data {
 	background-color : #000000;
 	}
-	/* footer{
+
+/* footer{
 		text-transform: capitalize;
 		align-content: last baseline;
 		text-combine-upright: upset;
+		margin: 0;
+}
+	
+     h3, h4 {
+		font-family: 'Zeyada', cursive;
+		text-align: center;
+		margin: 0;
 	} */
