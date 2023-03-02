@@ -1,0 +1,111 @@
+* {
+    box-sizing : border-box;
+    }
+    body {
+    font-size : 20px;
+    font-family : 'Zeyada', cursive;
+    }
+    header {
+    padding : 0.5rem 2%;
+    background-color : #e3860c;
+    }
+    header h1 {
+    margin : 0;
+    }
+    header h2 {
+    margin : 0;
+    font-weight : normal;
+    }
+    nav {
+    background-color : #e3860c;
+    }
+    nav ul {
+    list-style-type : none;
+    padding : 0;
+    margin : 0;
+    }
+    nav ul li {
+    float : left;
+    width : 25%;
+    }
+    nav ul li a {
+    display : block;
+    background-color : #e3860c;
+    color : #eee;
+    border-left : 1px solid #090909;
+    padding : 0.1rem 0;
+    text-decoration : none;
+    font-size : 0.9rem;
+    text-align : center;
+    }
+    nav ul li:first-child a {
+    border-left : none;
+    }
+    /* nav ul li a:hover {
+    background-color : #eee;
+    color : #333;
+    } */
+    nav ul li.active a {
+    background-color : #000;
+    color : #fff;
+    }
+    main {
+    padding : 0 2%;
+    min-height : 20rem;
+    }
+    footer {
+    background-color : #ddd;
+    padding : 0.5rem 2%;
+    text-align : center;
+    }
+    .clearfix:after {
+    content : "";
+    display : table;
+    clear : both;
+    }
+    form fieldset {
+    margin : 2rem 0;
+    border : #070708 solid 1px;
+    border-radius : 10px;
+    padding : 0.5em 2%;
+    }
+    form legend {
+    color : #000000;
+    margin : 0 1rem;
+    padding : 0.5rem;
+    }
+    form label.top, form div {
+    display : block;
+    padding-top : 1rem;
+    color : #0a0a0a;
+    font-size : 0.9rem;
+    }
+    form label.top input, form label.top select {
+    display : block;
+    font-size : 1rem;
+    border : #f6ffff solid 1px;
+    border-radius : 4px;
+    padding : 0.75rem;
+    color : #ecfaf7;
+    max-width : 20rem;
+    background-color : rgba(0, 0, 0, 0.1);
+    }
+    form label.sbs {
+    display : block;
+    padding : 0.75rem 0;
+    color : #e7f0ee;
+    }
+    form input.submitBtn {
+    border : none;
+    background-color : #9c2c13;
+    color : rgb(195, 9, 9);
+    border-radius : 1rem;
+    padding : 0.75rem 1.5rem;
+    margin : 0 0 2rem 2%;
+    width : 96%;
+    max-width : 20rem;
+    text-align: center;
+    }
+    footer{
+        background-color: #e3860c;
+    }
