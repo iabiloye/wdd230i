@@ -1,68 +1,4 @@
-* {
-    box-sizing : border-box;
-    }
-    body {
-    font-size : 20px;
-    font-family : 'Zeyada', cursive;
-    }
-    header {
-    padding : 0.5rem 2%;
-    background-color : #e3860c;
-    }
-    header h1 {
-    margin : 0;
-    }
-    header h2 {
-    margin : 0;
-    font-weight : normal;
-    }
-    nav {
-    background-color : #e3860c;
-    }
-    nav ul {
-    list-style-type : none;
-    padding : 0;
-    margin : 0;
-    }
-    nav ul li {
-    float : left;
-    width : 25%;
-    }
-    nav ul li a {
-    display : block;
-    background-color : #e3860c;
-    color : #eee;
-    border-left : 1px solid #090909;
-    padding : 0.1rem 0;
-    text-decoration : none;
-    font-size : 0.9rem;
-    text-align : center;
-    }
-    nav ul li:first-child a {
-    border-left : none;
-    }
-    /* nav ul li a:hover {
-    background-color : #eee;
-    color : #333;
-    } */
-    nav ul li.active a {
-    background-color : #000;
-    color : #fff;
-    }
-    main {
-    padding : 0 2%;
-    min-height : 20rem;
-    }
-    footer {
-    background-color : #ddd;
-    padding : 0.5rem 2%;
-    text-align : center;
-    }
-    .clearfix:after {
-    content : "";
-    display : table;
-    clear : both;
-    }
+
     form fieldset {
     margin : 2rem 0;
     border : #070708 solid 1px;
@@ -95,7 +31,7 @@
     padding : 0.75rem 0;
     color : #e7f0ee;
     }
-    form input.submitBtn {
+    /* form input.submitBtn {
     border : none;
     background-color : #9c2c13;
     color : rgb(195, 9, 9);
@@ -105,7 +41,60 @@
     width : 96%;
     max-width : 20rem;
     text-align: center;
+    } */
+
+    .button {
+        background-color: #36454f;
+        color: white;
+        padding: 1rem;
+        border: none;
+        border-radius: 1rem;
+        text-align: center;
+        margin: 1rem;
+        font-size: 1.2rem;
+    } 
+     textarea, .text input, label.text {
+        padding: 5px;
+        width: 95%;
+        padding: 5px;
+        width: 95%;
+        display: block;
+        padding-top: 10px;
     }
-    footer{
-        background-color: #e3860c;
+  
+    fieldset {
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid white;
     }
+    
+    
+
+    /* 
+    
+    fieldset {
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid white;
+    }
+    
+    fieldset legend {
+        font-size: 1.3rem;
+        font-family: 'Bebas Neue', serif;
+    }
+    
+    fieldset label {
+        font-weight: 600;
+    }
+    
+   
+  
+   
+  
+    
+    .thanks {
+        text-align: center;
+        background-color: rgba(180, 154, 92, 0.753);
+        grid-column: 2/4;
+        font-size: 1.2rem;
+    } 

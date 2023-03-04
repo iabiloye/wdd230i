@@ -1,0 +1,77 @@
+{
+    "businesses": [
+        {
+            "name": "Adidas",
+            "phone": "1-800-982-9337",
+            "address": "California",
+            "website": "https://www.adidas.com/us",
+            "image": "images/adidas.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Sky News",
+            "phone": "0333 7591 018",
+            "address": "14S United Kingdom",
+            "website": "https://news.sky.com/",
+            "image": "images/sky.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Animus Studio",
+            "phone": "401-438-4800",
+            "address": "120 Amaral Street Riverside RI 02915 United States",
+            "website": "https://www.animusstudios.com/",
+            "image": "images/animus.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "MAD",
+            "phone": "1-387-000-1627",
+            "address": "Berlin Kreuzberg",
+            "website": "https://mad.ac/",
+            "image": "images/mad.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Good Fight Store",
+            "phone": "+1 604 689 7302",
+            "address": "Roden Gray 8 Water St Vancouver, BC V6B 2K8 Canada",
+            "website": "https://goodfight.shop/",
+            "image": "images/good.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Burger and Sauce",
+            "phone": "121 592 9991",
+            "address": "370 London Road, Leicester, Leicestershire LE2 2PN",
+            "website": "https://www.burgerandsauce.com/",
+            "image": "images/burger.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "April Group",
+            "phone": "02 9096 3618",
+            "address": "Level 6 50 Holt Street, Surry Hills, NSW, 2010",
+            "website": "https://www.aprilgroup.com.au/",
+            "image": "images/april.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "MTN",
+            "phone": "+2348031000180",
+            "address": "MTN Plaza, Awolowo Road Ikoyi 101233,Lagos, Nigeria",
+            "website": "https://www.mtn.ng/",
+            "image": "images/mtn.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Airtel",
+            "phone": "+23490323456565",
+            "address": "14, apapa lagos, Nigeria",
+            "website": "https://www.airtel.com.ng/",
+            "image": "images/airtel.png",
+            "membership": "NP"
+        }
+
+    ]
+}
