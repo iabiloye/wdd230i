@@ -6,13 +6,12 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        //console.table(jsonObject);
         const businesses = jsonObject['businesses'];
         businesses.forEach(displayBusiness);
     }) 
 
 function displayBusiness(business) {
-    // Create elements to add to the document
+    
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let address = document.createElement('p');
@@ -41,3 +40,6 @@ function displayBusiness(business) {
 
     document.querySelector('.cards').appendChild(card);
 }
+
+// Create elements to add to the document
+ //console.table(jsonObject);
