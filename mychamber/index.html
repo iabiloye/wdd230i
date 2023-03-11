@@ -88,15 +88,24 @@
             <p>There were 11 million open jobs in the U.S. by December 2021. Similar work shortages are rising globally. One of the best ways you can support your chamber members is to help build or refresh their job boards.  </p>
             <p>Locate us.</p>
         </div>
-        <div id="weather">
-            <h2>Weather Summary</h2>
-        <picture><img src="images/weather.png" alt="cloud icon"></picture><
-        <p id="temp-ph"><span id="temperature"></span> 34&deg</p>
-        <h3 id="caption">Description</h3>
+        <section class="weather">
+            <h3>Weather</h3>
+            <div class="weather-info">
+                <img src="" id="weather-icon"  alt="weather icon">
+                <h3><span id="temp-value"></span>&deg;C</h3>
+            </div>
+            <p id="weather-desc"></p>
+            <hr>
+            <div class="wind-speed">
+                <p>Wind Speed: </p>
+                <p><span id="wind-speed-value"></span>km/h</p>
+            </div>
+            <div class="wind-chill">
+                <p>Wind Chill:</p>
+                <p id="wind-chill-display"> </p>
+            </div>
 
-            <p id="speed-ph">Windspeed: <span id="speed"></span> 34 mph</p>
-            <p id="chill-ph">Windchill: <span id="chill"></span>  14 kmph</p>
-        </div>
+        </section>
         <div id="join">
             <h2><a href="join.html">Join Us!</a></h2>
             <p>Discover how to join the IQweet Chamber of 
@@ -127,5 +136,6 @@
    <script src="scripts/responsiveMenu.js"></script>
    <script src="scripts/weatherapi.js"></script>
    <script src="scripts/spotlight.js"></script>
+   <script src="scripts/windchill.js"></script>
 </body>
 </html>
