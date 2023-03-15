@@ -292,6 +292,10 @@ margin : 5px auto;
 transition : all 0.3s ease-in-out;
 background-color : #101010;
 }
+
+main p{
+text-align: center;
+}
 .nav-item {
 margin-left : 5rem;
 list-style : none;
@@ -350,3 +354,75 @@ left : 0;
 }
 
 /* Hamburger */
+
+/* SPotLight */
+
+#spotlight {
+  border: 1px solid #36454f;
+  padding: 15px;
+  margin: 10px;
+  display: grid;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background-color: rgba(192, 164, 100, 0.753);
+
+}
+#spotlight div{
+  width: 13rem;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:10px; 
+}
+#spotlight div img{
+  margin-bottom: 10px;
+}
+#spotlight
+ img {
+  width: 80px;
+}
+
+#spotlight:nth-child(3) {
+  display: none;
+}
+
+#spotlight div p{
+  font-size: px;
+  margin: 5px;
+  font-style: italic;
+}
+
+
+#spotlight div a{
+  font-size: 10px;
+  margin: 0px;
+}
+
+#spotlight div section{
+  border-top: 2px solid #160c0c;
+}
+
+ #spotlight div section p{
+  font-size: 20px;
+  margin: 0;
+  margin-top: px;
+  font-style: normal;
+}
+
+/* #spotlight3{
+  display: none;
+} */
+
+/* Grid and List */
+
+main.directory div.selectStyle button {
+  padding: 1.5rem;
+  font-size: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-family: 'Nunito', sans-serif;
+  color: #3c3f48;
+  background-color: #ffff;
+  border: 1px solid #3c3f48;
+}
+

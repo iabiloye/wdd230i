@@ -14,8 +14,9 @@
     display : block;
     padding-top : 1rem;
     color : #0a0a0a;
-    font-size : 0.9rem;
-    }
+    font-size: larger;
+    font-family:  'Trebuchet MS'; 
+}
     form label.top input, form label.top select {
     display : block;
     font-size : 1rem;
@@ -98,3 +99,6 @@
         grid-column: 2/4;
         font-size: 1.2rem;
     } 
+
+
+    
