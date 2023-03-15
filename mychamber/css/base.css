@@ -317,6 +317,7 @@ border-radius : 10px;
 text-align : center;
 transition : 0.3s;
 box-shadow : 0 10px 27px rgb(0, 0, 0, 0.05);
+content: "❌ ";
 }
 .nav-menu.active {
 left : 0;
@@ -347,99 +348,5 @@ left : 0;
   max-width: 180px;
   box-shadow: 0 4px 8px 0 rgb(124, 35, 35);
 }
-/* hamburger */
-/* .other-content{
-    background-color:blueviolet;
-    & p{
-      color:whitesmoke;
-  } */
-  /* Small/Phone View ***************/
-  /* nav {
-    margin: 0 auto;
-    max-width: 760px;
-    background-color: tomato;
-  }
-  .navigation {
-    list-style: none;
-    padding: 0;
-  }
-  .navigation li:first-child {
-    display: block;
-  }
-  .navigation li {
-    display: none;
-  }
-  .navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-    transition: 0.5s;
-    font-size: clamp(1rem, 2vmin, 1.5rem);
-  }
-  
-  .navigation a.ham::before {
-    content: "🍔 ";
-  }
-  
-  .navigation a:hover {
-    color: white;
-    background-color: black;
-  }
-   */
-  /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-    <ul class="navigation responsive">
-  */
-  /* .responsive li {
-    display: block;
-  }
-  
-  .responsive a.ham::before {
-    content: "❌ ";
-  }
-   */
-  /* Media Query for medium+ views */
-  /* @media only screen and (min-width: 32.5em) {
-    .navigation {
-      display: flex;
-    }
-    .navigation li {
-      display: block; /* change state in small view */
-      /* flex: 1 1 auto;
-    }
-    .navigation a {
-      text-align: center;
-    }
-    .navigation li:first-child {
-      display: none;
-    }
-  }
-      */
-/* 
-#hamburgerBtn {
-    margin-top: 5px;
 
-
-
-}
-
-#hamburgerBtn span:nth-child(1) {
-    display: block;
-
-}
-
-#hamburgerBtn span:nth-child(2) {
-    display: none;
-}
-
-
-#hamburgerBtn.open span:nth-child(1) {
-    display: none;
-}
-
-
-#hamburgerBtn.open span:nth-child(2) {
-    display: block;
-} */
+/* Hamburger */
