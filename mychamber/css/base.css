@@ -17,6 +17,7 @@ padding : 5px 0;
 display : grid;
 align-content : center;
 font-family : 'Source Sans Pro', sans-serif;
+
 }
 .headings {
 grid-column : 2 / 3;
@@ -187,6 +188,7 @@ width : 100%;
 filter : blur(0);
 transition : filter 0.5s;
 max-height : 835px;
+
 }
 #weather-icon {
 width : 100px;
@@ -382,10 +384,7 @@ left : 0;
   width: 80px;
 }
 
-#spotlight:nth-child(3) {
-  display: none;
-}
-
+as
 #spotlight div p{
   font-size: px;
   margin: 5px;
