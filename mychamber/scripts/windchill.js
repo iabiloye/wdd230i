@@ -62,10 +62,12 @@ function displayResults(weatherData) {
 
   // const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   // var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
-  const iconsrc = "http://openweathermap.org/img/wn/10d@2x.png"
+  // const iconsrc = "http://openweathermap.org/img/wn/10d@2x.png"
 
-  const desc = weatherData.weather[0].description;
 
+  const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+  
+  
   WeatherIcon.setAttribute('src', iconsrc);
   WeatherIcon.setAttribute('alt', desc);
   WeatherDesc.textContent = desc;
